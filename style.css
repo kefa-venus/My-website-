@@ -1,0 +1,70 @@
+.body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: blue;
+    padding: 20px;
+}
+.header class{
+    background-color: blueviolet;
+}
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0 ;  
+}
+
+.nav list{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.banner{
+    text-align: center;
+    padding: 20px;
+}
+
+.banner h2 {
+font-size: 2em;
+margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.product-card{
+    width: 25 ;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgb(red, green, blue)
+}
+
+.product-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card h3{
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: deeppink;
+    text-align: center;
+    padding: 10px;
+}
